@@ -1,0 +1,18 @@
+
+.active {
+    color:hotpink;
+}
+.active-mobile{
+    opacity: 1;
+}
+
+
+ @media only screen and (max-width: 800px){
+
+
+     .join_us_content, .studio_content, .about_content, .contact_content {
+        width: 100%;
+
+}
+ }
+

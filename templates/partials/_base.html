@@ -1,0 +1,136 @@
+
+{% load static %}
+
+
+
+
+<body>
+<div class="mobile_navbar_div">
+    <ul class="mobile_navbar">
+        <li>
+            <a class="mobile_navbar_element" href="{% url 'index' %}">
+            <h2 class="nav_element {% if '/' == request.path %} active-mobile {% endif %}">Work</h2>
+            </a>
+        </li>
+        <li>
+            <a class="mobile_navbar_element" href="{% url 'ideas' %}">
+            <h2 class="nav_element nav_element_reverse_mobile {% if 'ideas/' in request.path %} active-mobile {% endif %}">Work</h2>
+            </a>
+        </li>
+        <li>
+            <a class="mobile_navbar_element" href="{% url 'about' %}">
+            <h2 class="nav_element {% if 'about/' in request.path %} active-mobile {% endif %}">About</h2>
+            </a>
+        </li>
+        <li>
+            <a class="mobile_navbar_element" href="{% url 'contact' %}">
+            <h2 class="nav_element {% if 'contact/' in request.path %} active-mobile {% endif %}">Contact</h2>
+            </a>
+        </li>
+        <li>
+            <a class="mobile_navbar_element" href="{% url 'join_us' %}">
+            <h2 class="nav_element {% if 'join_us/' in request.path %} active-mobile {% endif %}">Join Us</h2>
+            </a>
+        </li>
+        <li>
+            <a class="mobile_navbar_element" href="{% url 'studio' %}">
+            <h2 class="nav_element {% if 'studio/' in request.path %} active-mobile {% endif %}">!</h2>
+            </a>
+        </li>
+
+    </ul>
+</div>
+<div class="mobile_bar">
+    <div class="mobile_bar_content">
+        <div class="mobile_logo">
+        <a href="./index.html"><p class="mobile_logo_text">LOGO</p></a>
+    </div>
+
+        <div class="menu"><h3>Menu</h3></div>
+    </div>
+
+</div>
+<div class="sidebar">
+    <div class="logo_content">
+        <div class="logo padding-left">
+            <a class="logo_name" href="{% url 'index' %}">
+                LOGO
+            </a>
+        </div>
+
+    </div>
+    <div class="top_nav" data-content-field="navigation">
+        <nav class="top_nav">
+            <ul class="nav_list padding-left">
+        <li>
+            <a href="{% url 'index' %}">
+            <h2 class="nav_element {% if '/' == request.path %} active {% endif %}">WORK</h2>
+            </a>
+        </li>
+        <li>
+            <a href="{% url 'ideas' %}">
+            <h2 class="nav_element nav_element_reverse {% if 'ideas/' in request.path %} active {% endif %}">WORK</h2>
+            </a>
+        </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="sub_nav">
+        <ul class="nav_list padding-left">
+            <li>
+            <a href="{% url 'about' %}">
+            <h2 class="nav_element sub_nav_element {% if 'about/' in request.path %} active {% endif %}">ABOUT</h2>
+            </a>
+        </li>
+        <li>
+            <a href="{% url 'contact' %}">
+            <h2 class="nav_element sub_nav_element {% if 'contact/' in request.path %} active {% endif %}">CONTACT</h2>
+            </a>
+        </li>
+        <li>
+            <a href="{% url 'join_us' %}">
+            <h2 class="nav_element sub_nav_element {% if 'join_us/' in request.path %} active {% endif %}">JOIN US</h2>
+            </a>
+        </li>
+        <li>
+            <a href="{% url 'studio' %}">
+            <h2 class="nav_element sub_nav_element {% if 'studio/' in request.path %} active {% endif %}">!</h2>
+            </a>
+        </li>
+    </ul>
+    </div>
+
+    <!-- TEKİL SAYFALAR -->
+    <div class="pic_content">
+        <div class="pic_info">
+            <ul class="padding-left">
+            <li class="pic_name"><b>PIC NAME</b></li>
+            <li class="pic_about">PIC ABOUT</li>
+        </ul>
+        </div>
+        <div class="slide_buttons">
+            <div class="nav_slide_buttons">
+                <ul class="nav_slide_buttons padding-left">
+                    <li class="nav_slide_buttons_element">
+                        <a href="#">PREV</a>
+                    </li>
+                    <li class="nav_slide_buttons_element">
+                        /
+                    </li>
+                    <li class="nav_slide_buttons_element"><a href="#">NEXT</a></li>
+                </ul>
+            </div>
+            <div class="nav_slide_button_show">
+                <ul class="padding-left padding-bottom">
+                <li><a href="#"><h2 class="slide_buttons_show_thumbnails">SHOW</h2></a></li>
+                <li><a href="#"><h2 class="slide_buttons_show_thumbnails">THUMBNAILS</h2></a></li>
+            </ul>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+

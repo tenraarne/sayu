@@ -1,0 +1,128 @@
+
+{% load static %}
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Sayu.Go</title>
+    <link rel="shortcut icon" href="{% static './icon/icon.ico' %}">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- RESET CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static './css/reset.css' %}">
+    <!-- CSS CUSTOM-->
+    <link rel="stylesheet" type="text/css" href="{% static './css/style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static '/css/about.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static '/css/joint.css' %}">
+
+
+
+</head>
+{% include 'partials/_base.html' %}
+
+<div class="home_content">
+    <div class="about_content">
+        <div class="founders">
+            <div class="about_title">
+            Portraits of unbuilt architecture.
+        </div>
+        <div class="about_article">
+            <p>Our small studio is located in Bergen, Norway; the city where we grew up. Here, tucked in between mountains and fjords, far away from the hustle and bustle of the world, we try to figure out new and exciting ways to remind people that we live in a fantastic world.</p>
+
+<p>The idea when we founded Mir 20 years ago was that we could make a difference for architects by making truly original artwork. Today we are even more convinced of the same principles as back then.
+
+</p><p>We believe that uniqueness is worth fighting for and that art can change things for the better.</p>
+            <div class="authors">
+                <strong>Trond Greve Andersen & Mats Andersen</strong>
+                <p class="author_position">Founders</p>
+            </div>
+        </div>
+            <div class="founders_image">
+                <img src="{% static './img/founders.jpeg' %}">
+
+            </div>
+        </div>
+        <div class="employees">
+            <div class="employee">
+                <div class="employee_image">
+                    <img src="{% static './img/employee1.jpeg' %}">
+                </div>
+                <div class="employee_about">
+                    Gavin Belson
+                </div>
+
+
+            </div>
+            <div class="employee">
+                <div class="employee_image">
+                    <img src="{% static './img/employee2.jpeg' %}">
+                </div>
+                <div class="employee_about">
+                    Gavin Belson
+                </div>
+
+
+            </div>
+            <div class="employee">
+                <div class="employee_image">
+                    <img src="{% static './img/employee3.jpeg' %}">
+                </div>
+                <div class="employee_about">
+                    Gavin Belson
+                </div>
+
+
+            </div>
+            <div class="employee">
+                <div class="employee_image">
+                    <img src="{% static './img/employee4.jpeg' %}">
+                </div>
+                <div class="employee_about">
+                    Gavin Belson
+                </div>
+
+
+            </div>
+            <div class="employee">
+                <div class="employee_image">
+                    <img src="{% static './img/employee5.jpeg' %}">
+                </div>
+                <div class="employee_about">
+                    Gavin Belson
+                </div>
+
+
+            </div>
+            <div class="employee">
+                <div class="employee_image">
+                    <img src="{% static './img/employee6.jpeg' %}">
+                </div>
+                <div class="employee_about">
+                    Gavin Belson
+                </div>
+
+
+            </div>
+            <div class="employee">
+                <div class="employee_image">
+                    <img src="{% static './img/employee7.jpeg' %}">
+                </div>
+                <div class="employee_about">
+                    Gavin Belson
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+{% include 'partials/_script.html' %}

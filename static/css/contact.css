@@ -1,0 +1,103 @@
+.contact_content{
+    position: relative;
+    top:100px;
+    width: 60%;
+    //margin-top:50px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.contact_about{
+    padding: 20px 20px 20px 20px;
+
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+.contact_content{
+    display: flex;
+
+}
+.contact_tittle{
+    font-size: 35px;
+    padding-bottom:20px;
+    padding-top: 20px;
+}
+.contact_article{
+    font-size: 18px;
+    width: 100%;
+    padding-bottom:20px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+.contact_info{
+    position: relative;
+    top: 250px;
+}
+
+.contact_info .contact_link_list li{
+    margin-bottom: 30px;
+    line-height: 20px;
+}
+
+a {
+    color:grey;
+}
+
+.tel_address{
+    margin-bottom: 30px;
+    color: darkslategrey;
+    line-height: 25px;
+
+}
+.company_address{
+    margin-bottom: 50px;
+}
+.company_address_info{
+    line-height: 25px;
+}
+.send_files{
+    line-height: 25px;
+}
+
+
+
+.contact_image{
+    width: 100%;
+    height: auto;
+}
+
+
+ @media only screen and (max-width: 1200px){
+     .contact_content{
+         width: 80%;
+     }
+ }
+
+
+
+ @media only screen and (max-width: 800px){
+
+     .contact_content{
+        display: block;
+
+}
+     .contact_content{
+
+    top: 50px;
+    width: 100%;
+
+
+}
+     .contact_info{
+        position: relative;
+        top: 10px;
+         padding-left: 20px;
+         height: 100vh;
+}
+
+
+ }

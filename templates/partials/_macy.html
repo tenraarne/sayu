@@ -1,0 +1,25 @@
+<script src="https://cdn.jsdelivr.net/npm/macy@2"></script>
+
+<script>
+    var macy = Macy({
+            container: '#macy',
+            trueOrder: false,
+            waitForImages: true,
+            margin: 20,
+            columns: 6,
+            breakAt: {
+                6144:12,
+                4608:8,
+                3072:5,
+                2304:4,
+                1800:3,
+                1400:2 ,
+                1000: 1,
+    }
+});
+    macy.runOnImageLoad(function () {
+            var show= document.getElementById("macy")
+            show.classList.add("show");
+          macy.recalculate(true, true);
+        });
+</script>

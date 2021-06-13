@@ -1,0 +1,76 @@
+
+{% load static %}
+{% include 'partials/_head.html' %}
+
+    <!-- RESET CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static './css/reset.css' %}">
+    <!-- CSS CUSTOM-->
+    <link rel="stylesheet" type="text/css" href="{% static './css/style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static './css/studio.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static './css/line.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static './css/joint.css' %}">
+
+</head>
+{% include 'partials/_base.html' %}
+
+
+
+<div class="home_content">
+<div class="studio_content">
+    <div class="video_content">
+        <video width="100%" height="auto" controls>
+      <source src=”http://techslides.com/demos/sample-videos/small.ogv” type=video/ogg>
+      <source src="{% static './videos/video1.mp4' %}" type=video/mp4>
+    </video>
+
+
+    </div>
+
+    <div class="article poem">
+        I asked Mats
+        <br>
+        ”What is our spirit animal?
+        <br>
+        A tiger, a bear?”
+        <br>
+        <br>
+        He was silent for a long time, turned to me with a smile on his face and said
+        <br>
+        ”The Earth Worm!”
+        <br>
+        Yes we are!
+        <br>
+        Preferably invisible.
+        <br>
+        Bettering the soil for architecture.
+        <br>
+        Our images are propagators, fertilizers, ambassadors.
+        <br>
+        <br>
+        Our work is about empowering architects by creating enthusiasm.
+        <br>
+        Not about us.
+        <br>
+    </div>
+
+    <div class="line"></div>
+    <div class="article words">
+        <strong>Images are myths.
+            <br>
+        Still there when the city is dust.</strong>
+    </div>
+    <div class="line"></div>
+
+
+    <div class="intagram_content">
+        <div class="article">
+            You can alse find us on <a href="https://www.instagram.com/sayu.go/" class="instagram">Instagram</a>
+        </div>
+        <div class="instagram_posts"></div>
+
+    </div>
+
+</div>
+
+</div>
+{% include 'partials/_script.html' %}

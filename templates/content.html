@@ -1,0 +1,25 @@
+{% load static %}
+
+
+{% include 'partials/_head.html' %}
+
+    <!-- RESET CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static './css/reset.css' %}">
+    <!-- CSS CUSTOM-->
+    <link rel="stylesheet" type="text/css" href="{% static './css/style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static './css/content.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static '/css/joint.css' %}">
+
+</head>
+{% include 'partials/_base.html' %}
+
+<div class="home_content">
+    <div class="slide_items">
+        <div class="slide_left"></div>
+        <div class="slide_center"></div>
+        <div class="slide_right"></div>
+    </div>
+    <img src="{% static './img/barbara.jpg' %}" alt="image">
+</div>
+
+{% include 'partials/_script.html' %}

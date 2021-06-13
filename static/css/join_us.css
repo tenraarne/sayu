@@ -1,0 +1,44 @@
+.join_us_content{
+    position: relative;
+    top:100px;
+    width: 60%;
+    //margin-top:50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 150vh;
+
+}
+.article_block{
+    margin-bottom: 50px;
+}
+
+.title-1{
+    font-size: 35px;
+    //font-weight: bold;
+    margin-bottom: 35px;
+
+}
+
+.title-2{
+    font-size: 25px;
+    margin-bottom: 20px;
+
+}
+.article{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.commication_info{
+    margin-top: 20px;
+
+}
+
+
+
+ @media only screen and (max-width: 800px){
+     .join_us_content{
+         height: 200vh;
+     }
+
+ }

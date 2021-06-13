@@ -1,0 +1,103 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Contact &mdash; Sayu.Go</title>
+    <link rel="shortcut icon" href="{% static './icon/icon.ico' %}">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- RESET CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static './css/reset.css' %}">
+    <!-- CSS CUSTOM-->
+    <link rel="stylesheet" type="text/css" href="{% static './css/style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static './css/contact.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static './css/joint.css' %}">
+</head>
+
+{% include 'partials/_base.html' %}
+
+
+
+<div class="home_content">
+    <div class="contact_content">
+
+        <div class="contact_about">
+            <div class="contact_tittle">
+                Get in touch.
+            </div>
+            <div class="contact_article">
+                <p>Solvår Sæter is our studio manager.
+                    You should contact her if you are curious about anything Mir.
+                    She has been running the studio since 2012 and knows all the ins and outs of our peculiar practice.</p>
+            </div>
+            <div class="contact_image">
+                <img src="{% static './img/contact.jpeg' %}">
+            </div>
+
+
+        </div>
+        <div class="contact_info">
+            <div class="contact_link_list">
+            <ul>
+                <li>
+                    <p class="element_name">Enquiries</p>
+                    <a href="mailto: hkopacak@gmail.com" class="element_link">hkopacak@gmail.com</a>
+
+                </li>
+                <li>
+                    <p class="element_name">Finances</p>
+                    <a href="mailto: hkopacak@gmail.com" class="element_link">hkopacak@gmail.com</a>
+
+                </li>
+                <li>
+                    <p class="element_name">Job applications</p>
+                    <a href="mailto: hkopacak@gmail.com" class="element_link">hkopacak@gmail.com</a>
+
+                </li>
+
+            </ul>
+
+        </div>
+            <div class="tel_address">
+                <p class="element_name">Talk</p>
+                <p class="tel_number">+47 55320001</p>
+
+            </div>
+            <div class="company_address">
+                <p class="element_name">Visit</p>
+                <p class="company_address_info">
+                    Mir AS
+                    <br>
+                    Dokkeskjærskaien 1
+                    <br>
+                    Skur 24
+                    <br>
+                    5006 Bergen
+                    <br>
+                    Norway
+                    <br>
+                </p>
+
+
+            </div>
+            <div class="send_files">
+                <p class="element_name">Uplink</p>
+                <a href="#">Press here to send files</a>
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+
+</div>
+
+{% include 'partials/_script.html' %}

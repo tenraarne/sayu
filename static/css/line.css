@@ -1,0 +1,11 @@
+.line{
+    height: .8px;
+    width: 100%;
+    background-color: grey;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    opacity: .7;
+
+
+}
